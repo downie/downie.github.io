@@ -7,7 +7,7 @@ layout: home
 
 # downie.github.io
 
-Testing how this works
+Testing how this works.
 
 ## With subheadings
 
