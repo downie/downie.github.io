@@ -1,11 +1,11 @@
 ---
-// cSpell:words metaprogramming metatype metatypes
-// cspell:ignore Cryptopals
 layout: post
 title:  Metaprogramming with Protocols in Swift
 date:   2021-05-06 05:24:00 -0700
 categories: swift
 ---
+<!-- cSpell:words metaprogramming metatype metatypes -->
+<!-- cspell:ignore Cryptopals -->
 
 I was recently writing a test runner for [the Cryptopals Crypto Challenges](https://cryptopals.com), and I ran into a problem. I had isolated all of my individual challenges into their own type, but I wanted to have a means of running all of my solutions at once. I naively wrote something like this:
 
