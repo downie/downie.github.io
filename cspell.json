@@ -201,7 +201,11 @@
       "HDDs",
       "PCIE",
       "COVID",
-      "Statiq"
+      "Statiq",
+      // Proper names
+      "Stubular", 
+      "Projekt",
+      "Usermind"
   ],
   "ignoreWords": [],
   "ignoreRegExpList": [
