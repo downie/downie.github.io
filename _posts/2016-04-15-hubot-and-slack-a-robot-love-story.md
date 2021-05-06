@@ -2,7 +2,7 @@
 layout: post
 title:  Hubot & Slack, a Robot Love Story
 date:   2016-04-19 12:34:19 -0700
-categories: archive
+categories: crosspost
 ---
 <!-- cspell:ignore hubot hubot's Sullins oncall -->
 > This post originally appeared on [the Usermind blog](https://www.usermind.com/blog/hubot-slack-a-robot-love-story). Some of the images have been lost, but I'm preserving most of the content here.
