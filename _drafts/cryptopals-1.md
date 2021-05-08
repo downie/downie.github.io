@@ -47,3 +47,5 @@ This was a useful learning experience and an introduction to these challenges. I
 
 1. Always work on bytes. Even if the challenge refers to "strings", it's reasonable to take an unnamed step of converting these inputs to bytes. This challenge even calls that out as a "Cryptopals Rule", but it took me stumbling over this for a few challenges to really internalize it.
 2. Look for smaller problems to solve when the b -->
+
+[See my full solution here.](https://github.com/downie/cryptopals/blob/main/Cryptopals/Challenges/Set1/Challenge01.swift)
