@@ -207,7 +207,8 @@
       "Projekt",
       "Usermind",
       "Fastlane",
-      "WWDC"
+      "WWDC",
+      "Cryptopals"
   ],
   "ignoreWords": [
     "crosspost"
