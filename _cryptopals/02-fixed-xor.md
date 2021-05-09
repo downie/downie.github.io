@@ -59,6 +59,6 @@ public class FixedXorCipher: Cipher {
 }
 ```
 
-Once that was written, all I had to do was re-use my `DataDisplay` from `Challenge01` to convert the hex string to bytes, and then use my new FixedXorCipher class to encrypt it.
+Once that was written, all I had to do was re-use my `DataDisplay` from `Challenge01` to convert the hex string to bytes, and then use my new `FixedXorCipher` class to encrypt it.
 
 [See my full solution here.](https://github.com/downie/cryptopals/blob/main/Cryptopals/Challenges/Set1/Challenge02.swift) 
