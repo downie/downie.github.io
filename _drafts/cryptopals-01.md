@@ -20,7 +20,7 @@ I made a `DataDisplay` namespace with four methods:
 1. `data(forBase64String:)`
 1. `base64String(for:)`
 
-The first two translate between `Data` and `String` for hex strings, wheras the last two translate between `Data` and `String` for base64 strings.
+The first two translate between `Data` and `String` for hex strings, whereas the last two translate between `Data` and `String` for base64 strings.
 
 Notably, I didn't write these as extensions on `Data` or `String`. Those are natural places for these methods. So natural, in fact, that `Foundation` provides them. In my first attempt at this, I added my own extensions, and then got confused as to if I was using my code or `Foundation` code when working with these methods. 
 
