@@ -3,9 +3,11 @@ layout: post
 title:  "Cryptopals 6: Break repeating-key XOR"
 set: 1
 challenge: 6
+challenge_title: Break repeating-key XOR
+challenge_link: https://cryptopals.com/sets/1/challenges/6
 ---
 <!-- cspell:ignore xor'd -->
-[This challenge](https://cryptopals.com/sets/1/challenges/6) takes the repeating-key XOR cipher that we built in [challenge 5] and asks us to break it. That is -- to decrypt something that's been encrypted with this particular method, without knowing the private key. 
+[This challenge]({{ page.challenge_link }}) takes the repeating-key XOR cipher that we built in [challenge 5] and asks us to break it. That is -- to decrypt something that's been encrypted with this particular method, without knowing the private key. 
 
 This is a good amount of work. There are a lot of smaller problems that need to be solved before you can break this kind of encryption. While this challenge gives you a pretty clear roadmap of the steps needed, it can still be a pain to implement because you might not know which step isn't working if you're not getting a good result. Keep at it.
 

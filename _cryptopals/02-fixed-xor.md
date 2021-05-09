@@ -3,9 +3,11 @@ layout: post
 title:  "Cryptopals 2: Fixed XOR"
 set: 1
 challenge: 2
+challenge_title: Fixed XOR
+challenge_link: https://cryptopals.com/sets/1/challenges/2
 ---
 <!-- cspell:ignore xor'ing xor'd -->
-[This challenge](https://cryptopals.com/sets/1/challenges/2) asks you to create a function that exclusive-or's (XOR) two byte buffers. 
+[This challenge]({{ page.challenge_link }}) asks you to create a function that exclusive-or's (XOR) two byte buffers. 
 
 ## Introduction to XOR
 This is the first of a handful of challenges that use exclusive-or. There's [an excellent article on Wikipedia](https://en.wikipedia.org/wiki/Exclusive_or) that goes into the full depth of its power. But here's a quick primer.

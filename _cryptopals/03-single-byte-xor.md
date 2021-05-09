@@ -3,9 +3,11 @@ layout: post
 title:  "Cryptopals 3: Single-byte XOR cipher"
 set: 1
 challenge: 3
+challenge_title: Single-byte XOR cipher
+challenge_link: https://cryptopals.com/sets/1/challenges/3
 ---
 <!-- cspell:ignore xor'd objc -->
-[This challenge](https://cryptopals.com/sets/1/challenges/3) asks you to to both decrypt some XOR encrypted data and to find the key.
+[This challenge]({{ page.challenge_link }}) asks you to to both decrypt some XOR encrypted data and to find the key.
 
 Fortunately, you know that a single byte has been XOR'd with all the bytes in the plaintext. There are at most 256 of those. This means it's feasible, but annoying, to try every single byte and attempt to read what that decrypts to.
 

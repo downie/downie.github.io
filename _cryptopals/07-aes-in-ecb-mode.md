@@ -3,9 +3,11 @@ layout: post
 title:  "Cryptopals 7: AES in ECB mode"
 set: 1
 challenge: 7
+challenge_title: AES in ECB mode
+challenge_link: https://cryptopals.com/sets/1/challenges/7
 ---
 <!-- cspell:ignore codebook -->
-[This challenge](https://cryptopals.com/sets/1/challenges/7) brings us back to building encryption, by asking us to implement AES-128 in ECB, or electronic codebook, mode. 
+[This challenge]({{ page.challenge_link }}) brings us back to building encryption, by asking us to implement AES-128 in ECB, or electronic codebook, mode. 
 
 This is the first of our work with block ciphers. Unlike the later challenges, we're encouraged to use existing frameworks to build our own ECB interface. My guess is that this is just tedious code to write on our own, and not as interesting as some of the later ciphers.
 
