@@ -32,6 +32,9 @@ collections:
     output: true
     sort_by: challenge
 
+header_pages:
+  - about.md
+
 # Build settings
 theme: minima
 plugins:
