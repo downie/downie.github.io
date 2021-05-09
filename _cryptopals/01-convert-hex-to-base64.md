@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Cryptopals 1: Convert hex to base64"
-categories: cryptopals
+set: 1
+challenge: 1
 ---
 In [this challenge]([https://cryptopals.com/sets/1/challenges/1]) we're asked to implement our own base64 encoding method. And while that's _all_ it asks, it'd probably be a good idea to write our own decoding method as well.
 

@@ -27,6 +27,11 @@ url: "https://chrisdownie.net" # the base hostname & protocol for your site, e.g
 twitter_username: cdownie
 github_username:  downie
 
+collections:
+  cryptopals:
+    output: true
+    sort_by: challenge
+
 # Build settings
 theme: minima
 plugins:
