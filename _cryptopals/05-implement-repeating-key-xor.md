@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Cryptopals 5: Implement repeating-key XOR"
-categories: cryptopals
+set: 1
+challenge: 5
 ---
 <!-- cspell:ignore xor'd -->
 [This challenge](https://cryptopals.com/sets/1/challenges/5) evolves our XOR cipher to use more than one byte. The key is now three bytes instead of one, although it's still repeated to match the length of the input. 

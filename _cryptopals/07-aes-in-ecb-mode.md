@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Cryptopals 7: AES in ECB mode"
-categories: cryptopals
+set: 1
+challenge: 7
 ---
 <!-- cspell:ignore codebook -->
 [This challenge](https://cryptopals.com/sets/1/challenges/7) brings us back to building encryption, by asking us to implement AES-128 in ECB, or electronic codebook, mode. 

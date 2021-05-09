@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Cryptopals 6: Break repeating-key XOR"
-categories: cryptopals
+set: 1
+challenge: 6
 ---
 <!-- cspell:ignore xor'd -->
 [This challenge](https://cryptopals.com/sets/1/challenges/6) takes the repeating-key XOR cipher that we built in [challenge 5] and asks us to break it. That is -- to decrypt something that's been encrypted with this particular method, without knowing the private key. 

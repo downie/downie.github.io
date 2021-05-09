@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Cryptopals 8: Detect AES in ECB mode"
-categories: cryptopals
+set: 1
+challenge: 8
 ---
 <!-- cspell:ignore codebook ciphertext -->
 [This challenge](https://cryptopals.com/sets/1/challenges/8) is a stepping stone to breaking electronic codebook (ECB) mode of the AES-128 block cipher. Before we break it, we should be able to identify what's encoded using it. _That's_ the task at hand in this challenge.

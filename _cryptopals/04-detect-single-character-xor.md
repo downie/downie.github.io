@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Cryptopals 4: Detect single-character XOR"
-categories: cryptopals
+set: 1
+challenge: 4
 ---
 <!-- cspell:ignore xor'd -->
 [This challenge](https://cryptopals.com/sets/1/challenges/4) implicitly asks you to decrypt a needle in a haystack. Only one of 327 byte sequences is encrypted with a single byte XOR. 

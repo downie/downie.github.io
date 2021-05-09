@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Cryptopals 3: Single-byte XOR cipher"
-categories: cryptopals
+set: 1
+challenge: 3
 ---
 <!-- cspell:ignore xor'd objc -->
 [This challenge](https://cryptopals.com/sets/1/challenges/3) asks you to to both decrypt some XOR encrypted data and to find the key.
