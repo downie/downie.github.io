@@ -1,10 +1,13 @@
 ---
 layout: post
 title:  "Cryptopals 2: Fixed XOR"
-categories: cryptopals
+set: 1
+challenge: 2
+challenge_title: Fixed XOR
+challenge_link: https://cryptopals.com/sets/1/challenges/2
 ---
 <!-- cspell:ignore xor'ing xor'd -->
-[This challenge](https://cryptopals.com/sets/1/challenges/2) asks you to create a function that exclusive-or's (XOR) two byte buffers. 
+[This challenge]({{ page.challenge_link }}) asks you to create a function that exclusive-or's (XOR) two byte buffers. 
 
 ## Introduction to XOR
 This is the first of a handful of challenges that use exclusive-or. There's [an excellent article on Wikipedia](https://en.wikipedia.org/wiki/Exclusive_or) that goes into the full depth of its power. But here's a quick primer.
@@ -56,6 +59,6 @@ public class FixedXorCipher: Cipher {
 }
 ```
 
-Once that was written, all I had to do was re-use my `DataDisplay` from `Challenge01` to convert the hex string to bytes, and then use my new FixedXorCipher class to encrypt it.
+Once that was written, all I had to do was re-use my `DataDisplay` from `Challenge01` to convert the hex string to bytes, and then use my new `FixedXorCipher` class to encrypt it.
 
 [See my full solution here.](https://github.com/downie/cryptopals/blob/main/Cryptopals/Challenges/Set1/Challenge02.swift) 
