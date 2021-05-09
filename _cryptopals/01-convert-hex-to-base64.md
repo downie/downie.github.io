@@ -43,12 +43,6 @@ Then, the [details on padding](https://en.wikipedia.org/wiki/Base64#Decoding_Bas
 While there isn't a `UInt24` type _perfectly_ suited to this purpose, you can store all those bits in a `UInt32`, which is precisely what I did.
 
 - [To convert bytes from Base64](https://github.com/downie/cryptopals/blob/main/CryptoTools/DataDisplay.swift#L93-L135), load four characters into a `UInt32`, then re-interpret that as three bytes. 
-- [To covert Base64 from bytes](https://github.com/downie/cryptopals/blob/main/CryptoTools/DataDisplay.swift#L140-L182), load three bytes into a `UInt32`, then re-interpret that as four Base64 characters.  
-<!-- 
-### Takeaway
-This was a useful learning experience and an introduction to these challenges. I took away a few things:
-
-1. Always work on bytes. Even if the challenge refers to "strings", it's reasonable to take an unnamed step of converting these inputs to bytes. This challenge even calls that out as a "Cryptopals Rule", but it took me stumbling over this for a few challenges to really internalize it.
-2. Look for smaller problems to solve when the b -->
+- [To covert Base64 from bytes](https://github.com/downie/cryptopals/blob/main/CryptoTools/DataDisplay.swift#L140-L182), load three bytes into a `UInt32`, then re-interpret that as four Base64 characters.
 
 [See my full solution here.](https://github.com/downie/cryptopals/blob/main/Cryptopals/Challenges/Set1/Challenge01.swift)
