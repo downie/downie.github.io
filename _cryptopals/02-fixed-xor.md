@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Cryptopals 2: Fixed XOR"
-categories: cryptopals
+set: 1
+challenge: 2
 ---
 <!-- cspell:ignore xor'ing xor'd -->
 [This challenge](https://cryptopals.com/sets/1/challenges/2) asks you to create a function that exclusive-or's (XOR) two byte buffers. 
