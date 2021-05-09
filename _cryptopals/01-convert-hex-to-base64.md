@@ -3,8 +3,10 @@ layout: post
 title:  "Cryptopals 1: Convert hex to base64"
 set: 1
 challenge: 1
+challenge_title: Convert hex to base64
+challenge_link: https://cryptopals.com/sets/1/challenges/1
 ---
-In [this challenge]([https://cryptopals.com/sets/1/challenges/1]) we're asked to implement our own base64 encoding method. And while that's _all_ it asks, it'd probably be a good idea to write our own decoding method as well.
+In [this challenge]({{ page.challenge_link }}) we're asked to implement our own base64 encoding method. And while that's _all_ it asks, it'd probably be a good idea to write our own decoding method as well.
 
 It's harder than it looks! Especially if you haven't had much experience working with individual bits. However, you're in luck, that experience is exactly what this challenge provides.
 

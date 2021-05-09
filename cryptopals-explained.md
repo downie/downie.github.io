@@ -6,8 +6,13 @@ permalink: /cryptopals/
 
 Let's talk about crypotpals.
 
-{% for post in site.cryptopals %}
-<a href="{{post.url}}">
-  {{ post.title }}
-</a>
-{% endfor %}
+## Set 1: "Basics"
+<ol start="1">
+  {% for post in site.cryptopals %}
+    <li>
+      <a href="{{post.url}}">
+        {{ post.challenge_title }}
+      </a>
+    </li>
+  {% endfor %}
+</ol>
