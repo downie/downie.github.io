@@ -17,7 +17,7 @@ Well, it's actually asking for two things:
 ## My Solution
 Let's start with the second problem first.
 
-## The Generator Problem
+### The Generator Problem
 I made an `Oracle` class that encrypts data after adding some random bytes on either side.
 
 ```swift
@@ -56,7 +56,7 @@ class Oracle {
 }
 ```
 
-## Now, the Detector
+### Now, the Detector
 Well, again, we kind of already solved this in [challenge 8](./08-detect-aes-in-ecb-mode). And we can almost recycle that solution wholesale by simply saying that if it's not ECB, then it _must_ be CBC. 
 
 So let's use the same approach:
@@ -64,7 +64,7 @@ So let's use the same approach:
 - See if any later blocks are identical to the current one
 - If so, it's ECB. Otherwise, it's CBC. 
 
-## Rinse and Repeat
+### Rinse and Repeat
 Notably, if our method for the detector was just "always guess CBC" then we'd be right 50% of the time. So running it once doesn't really guarantee that our solution is working. So let's run our test in a loop. I ended up running it about 10 times and only when it passed every time did I call it done.
 
 ```swift
