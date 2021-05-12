@@ -35,8 +35,9 @@ These were anything but basic. I'd call these challenges _foundational_. Some of
   {% endfor %}
 </ol>
 
-<!-- 
 ## Set 2: Block crypto
+Now we're _really_ getting into it. Some of these are pretty small and straightforward. Some took quite a bit of code to get through. But it's also your first foray into breaking real crypto, so it's super rewarding.
+
 <ol start="9">
   {% for post in site.cryptopals %}
     {% if post.set == 2 %}
@@ -48,4 +49,3 @@ These were anything but basic. I'd call these challenges _foundational_. Some of
     {% endif %}
   {% endfor %}
 </ol> 
--->
